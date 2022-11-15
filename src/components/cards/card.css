@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 25px;
+    padding: 25px 50px;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 2px 2px 16px 1px black;
+    height: 11rem;
+    
+}
+.icon{
+    color:white;
+    font-size: 5rem;
+}
+.caption{
+    color: white;
+    font-family: fantasy;
+    transition: 0.75s ease-in ;
+}

@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+p{
+    color: #093b94;
+    margin-bottom: 10px;
+}
+body{
+    background-color: rgba(196, 189, 189, 0.37);
+}
+form fieldset{
+    background-color: white;
+    margin: auto auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.kiu-img{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kiu-img img{
+    width: 100px;
+    
+}
+.download-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.download-btn h2{
+    color: rgb(10, 10, 48);
+    margin-bottom: 15px;
+    /* text-align: center; */
+}
+.download-btn h2:hover{
+    color: rgb(81, 141, 161);
+}
+.download-btn button{
+    background-color: green;
+    text-align: center;
+    color: white;
+    height: 2rem;
+    padding: 5px 5px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.flex-start input{
+    height: 2rem;
+    border-radius: 25px;
+    width: 100%;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+.inline{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.checkpoint{
+    display: flex;
+    flex-direction: row;
+}
+.forget button{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+.btn{
+    margin: 15px;
+}
+.btn button{
+    color: white;
+    background-color: #093b94;
+    padding: 0px 12px;
+    border-radius: 25px;
+    width: 30%;
+    height: 2rem;
+}

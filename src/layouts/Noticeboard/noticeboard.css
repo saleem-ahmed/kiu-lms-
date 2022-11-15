@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.noticeboard{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+    padding: 20px 10px;
+    color: white;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+}
+.back{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.mainBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+}
+.box{
+    background-color: wheat;
+    color: white;
+    padding: 10px 25px;
+    margin-left: 15px;
+}
+.box1{
+    background-color: rgb(60, 177, 31);
+    color: white;
+    padding: 10px 25px;
+    margin-left: 15px;
+}
+.box2{
+    background-color: rgb(58, 168, 172);
+    color: white;
+    padding: 10px 25px;
+    margin-left: 15px;
+}
+.box3{
+    background-color: rgb(187, 95, 199);
+    color: white;
+    padding: 10px 25px;
+    margin-left: 15px;
+}
