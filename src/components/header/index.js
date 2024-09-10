@@ -1,5 +1,5 @@
 import React from "react";
-import Pic2 from "../../Assests/HeaderLogoPNG.PNG";
+import Pic2 from "../../Assests/HeaderLogoPNG.png";
 import 'antd/dist/antd.css';
 
 import './header.css';
